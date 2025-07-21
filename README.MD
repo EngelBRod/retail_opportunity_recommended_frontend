@@ -18,7 +18,7 @@ or for placements completely  sold
 # Scalability
 
 ROR is in beta testing but is projected to scale to millions of users.
-- Key elements to  implement and take into consideration for the system design:
+## Key elements to  implement and take into consideration for the system design:
 
 >CDN 
 
