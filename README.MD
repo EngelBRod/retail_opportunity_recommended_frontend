@@ -18,16 +18,18 @@ or for placements completely  sold
 # Scalability
 
 ROR is in beta testing but is projected to scale to millions of users.
-Here are concepts to take into consideration for the system design:
+Key elements to  implement and take into consideration for the system design:
 
 >CDN 
 
->Load balancer geo-routed
+>Estrategically geo-located data centers' redundancies
+
+>Load balancer geo-routed (based on the geo-located datacenters)
 
 >Data Caching 
 
->Data centers redundancies
+>Master/Slave database replication ( write operations handled by master & read operations handled by slaves)
 
->Master/Slave database replication
+>Proper database normalization, sharding and indexing
 
 >Monitoring tools
