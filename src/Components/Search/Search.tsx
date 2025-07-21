@@ -6,8 +6,8 @@ import axios from "axios";
 
 function Search({setStores}:set_stores) {
 
-    async function handleSubmit(place:string) {
-        const result = await axios.get('http://localhost:3500/v1/stores', {
+  async function handleSubmit(place: string) {
+        const result = await axios.get(`${import.meta.env.VITE_BASE_URL}stores`, {
             params: {
             place
             }

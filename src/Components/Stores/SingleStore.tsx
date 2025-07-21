@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function SingleStore({ id, region_id, name,opportunity_score,region_city,region_state,region_zipcode }: store) {
+function SingleStore({ id, name,opportunity_score,region_city,region_state,region_zipcode }: store) {
     return (<>
 
         <Link to={`/recomendations/${id}`}>
