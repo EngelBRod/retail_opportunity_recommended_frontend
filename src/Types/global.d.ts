@@ -4,6 +4,10 @@ declare global {
         id: string;
         region_id: string;
         name: string;
+        region_city: string;
+        region_state: string;
+        region_zipcode: string;                
+        opportunity_score?: number;
     }
 
     type stores_type = Array<store>
@@ -29,4 +33,4 @@ declare global {
 
 }
 
- export {};
+export { };
