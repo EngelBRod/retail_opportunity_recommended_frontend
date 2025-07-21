@@ -22,7 +22,9 @@ function ProductList() {
     }
     return (
         <>
-            <Link to="/"><div> Search other stores</div></Link>
+            <div className="flex items-center rounded bg-slate-800 py-1 px-2.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                <Link to="/"> Search other stores</Link>
+            </div>
             {recommendations?.map((value) => {
                 return (
                     <>

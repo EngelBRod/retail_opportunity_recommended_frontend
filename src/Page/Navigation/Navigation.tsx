@@ -2,8 +2,11 @@ import { Outlet } from "react-router-dom";
 
 function Navigation() {
     return (
-        <>
-            <Outlet/>
+        <>  
+            
+                <Outlet/>
+           
+            
         </>
     )
 }

@@ -6,10 +6,13 @@ function Home() {
     const [stores,setStores] = useState<stores_type>([])
     return (
         <>
-            <Search setStores={setStores} />
-            <StoresList stores={stores} />
+            <div className=" ">
+                <Search setStores={setStores} />
+                <StoresList stores={stores} />
+            </div>
+
         </>
-    )
+    );
 }
 
 export default Home;
